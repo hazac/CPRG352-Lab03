@@ -14,20 +14,27 @@
     <body>
         <h1>Arithmetic Calculator</h1>
         <form method="post" action="ArithmeticCalculator">
-            <label>First: </label>
-            <input type="text" name="num1" value="${nm1}">
-            <br>
-            <label>Second: </label>
-            <input type="text" name="num2" value="${nm2}">
-            <br>
-            <input type="submit" name="sum" value="+">
-            <input type="submit" name="subs" value="-">
-            <input type="submit" name="mult" value="*">
-            <input type="submit" name="mod" value="%">
+            <div>
+                <label>First: </label>
+                <input type="text" name="num1" value="${nm1}">
+            </div>
+            <div>
+                <label>Second: </label>
+                <input type="text" name="num2" value="${nm2}">
+            </div>
+            <div>
+                <input type="submit" name="sum" value="+">
+                <input type="submit" name="subs" value="-">
+                <input type="submit" name="mult" value="*">
+                <input type="submit" name="mod" value="%">
+            </div>
         </form> 
-            <br>
-        <span>${message}</span>
-        <br>
-        <a href="AgeCalculator">Age Calculator</a>
+        <br>  
+        <div>    
+            <span>${message}</span>
+        </div>
+        <div>
+            <a href="AgeCalculator">Age Calculator</a>
+        </div>
     </body>
 </html>

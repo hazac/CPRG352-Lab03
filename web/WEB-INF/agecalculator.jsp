@@ -14,12 +14,17 @@
     <body>
         <h1>Age Calculator</h1>
         <form method="POST" action="AgeCalculator">
-            <label>Enter your age: </label>
-            <input type="text" name="age">
-            <br>
+            <div>
+                <label>Enter your age: </label>
+                <input type="text" name="age">
+            </div>
             <input type="submit" name="" value="Age next birthday">
+            <div>
+                <span>${message}</span>
+            </div>
         </form>
-        <p>${message}</p>
-        <a href="ArithmeticCalculator">Arithmetic Calculator</a>
+        <div>
+            <a href="ArithmeticCalculator">Arithmetic Calculator</a>        
+        </div>        
     </body>
 </html>
